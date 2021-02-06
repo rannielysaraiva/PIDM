@@ -6,7 +6,7 @@ export class Sobre extends Component {
         return (
             <View>
                 <Text> Oii, quero ser aprovada!</Text>
-                <Button title="HOME"></Button>
+                <Button title="HOME" onPress = {()=>{this.props.navigation.navigate('Home')}}></Button>
             </View>
         )
     }

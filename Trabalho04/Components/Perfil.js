@@ -6,10 +6,10 @@ export class Perfil extends Component {
         return (
             <View>
                 <Image source={{uri:'https://static.poder360.com.br/2020/10/gato-animal-covid-19-868x644.jpg'}} style={{width:100, height:100}}></Image>
-                <Text>Nome:</Text>
-                <Text>Idade:</Text>
-                <Text>Email:</Text>
-                <Button title="HOME"></Button>
+                <Text>Nome:{this.props.route.params.nome}</Text>
+                <Text>Idade: {this.props.route.params.idade}</Text>
+                <Text>Email: {this.props.route.params.email}</Text>
+                <Button title="HOME" onPress = {()=>{this.props.navigation.navigate('Home')}}></Button>
 
             </View>
         )

@@ -5,9 +5,9 @@ export class Home extends Component {
     render() {
         return (
             <View>
-                <Button title="Cadastro"> </Button>
-                <Button title="IMC"> </Button>
-                <Button title="Sobre"> </Button>
+                <Button title="Cadastro" onPress={()=>{this.props.navigation.navigate('Cadastro')}}> </Button>
+                <Button title="IMC" onPress={()=>{this.props.navigation.navigate('Imc')}}> </Button>
+                <Button title="Sobre" onPress={()=>{this.props.navigation.navigate('Sobre')}}> </Button>
             </View>
         )
     }
