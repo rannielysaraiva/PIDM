@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "496909257917",
+    "project_id": "firestore-trabalho06",
+    "storage_bucket": "firestore-trabalho06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496909257917:android:c9fe6b1e11b5b77c107bd4",
+        "android_client_info": {
+          "package_name": "com.atividade6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496909257917-o0575b47rec7b3vmooocm933gcgr88us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqayt0K8MRHbVWCzSwwtOq5Vo85k-pis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496909257917-o0575b47rec7b3vmooocm933gcgr88us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
